@@ -3,6 +3,7 @@ body{
   font-family:verdana,sans-serif;
   font-size:0.85em;
   background-color:#eac657;
+}
 
 #wapper{
   display:flex;
@@ -15,22 +16,32 @@ body{
   margin:20px;
   width:100%;
 }
+
 h1{
-float:left;
-margin:o;
-text-indent:-20000px;
-width:300px;
-height:66px;
-}
-#nav
-{
-  margin-top:20px;
-  list-style: none;
-  display:inline-block;
-#nav li{
   float:left;
-  margin-left:20px;
+  margin:o;
+  text-indent:-20000px;
+  width:300px;
+  height:66px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
 a{
   font-size: 1.4em;
   font-weight:bold;
@@ -39,21 +50,34 @@ a{
   text-decoration: none;
   border-radius: 10px;
 }
-  a:hover,a:focus{
-    color: #d2b14e;
-    background:#000;
-  }
-  img{
-    max-width:100%;
-  }
-  #content{
-    width:55%;
-    float:left;
-  }
+
+a:hover,a:focus{
+  color: #d2b14e;
+  background:#000;
 }
+
+img{
+  max-width:100%;
+}
+
+#content{
+  width:55%;
+  float:left;
+}
+
 @media screen and (max-width: 300px) {
-     {
+ {
         font-size: 2em;
+
+    }
+    img{
+      width: 25%;
+    }
+    img2{
+      width: 25%;
+    }
+    img3{
+      width: 25%;
     }
 
     div#main{

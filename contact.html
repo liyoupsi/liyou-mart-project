@@ -5,22 +5,47 @@
     <link rel ="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-
-
+<div id="contact">
     <h1>Liyou Mart</h1>
-    <ul id "nav">
+    <ul id="nav">
       <li><a href="index.html"><button>Home</button></a></li>
       <li><a href="about.html"><button>About US</button></a></li>
       <li><a href="location.html"><button>Location/hours</button></a></li>
       <li><a href="products.html"><button>Products</button></a></li>
-
-  
-    <ul><li>Email-honny871@yahoo.com</li>
-    <li>phone-5022986553</li></ul>
-  </div>
+      <li><a href="contact.html"><button>Contact Us</button></a></li>
+    </ul>
 </div>
+
+    <ul>
+      <li>Email-honny871@yahoo.com</li>
+    <li>phone-5022986553</li></ul>
+
 <div id="main">
 <h1>Contact Form </h1>
+<script type="text/javascript">
+function submitform()
+{
+    document.forms["myform"].submit();
+}
+</script>
+<form id="myform" action="submit-form.php">
+Email: <input type='text' name='query'>
+</form>
+</div>
+<button onclick="myFunction()">Submit</button>
+
+<p id="contact"></p>
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Press a button!") == true) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}</script>
+
       <script src="http://code.jquery.com/jquery-1.11.0.min.js"type="text/javascript"
       charset="utf-8"></script>
       <script src="js/app.js" type="text/javascript" charset="uft-8"></script>
