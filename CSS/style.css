@@ -1,8 +1,69 @@
-body{
+body{//style for the body
   margin:0;
   font-family:verdana,sans-serif;
   font-size:0.85em;
   background-color:#eac657;
+}
+.navbar li  {//style for nav
+  display: inline;
+  width:25%;
+}
+
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar > li {
+    margin-left: .25em;
+}
+
+.navbar > li:first-child {
+    margin-rigt: 0;
+}
+
+.navbar a {
+    padding: .25em;
+    text-decoration: none;
+    height: 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar a:hover {
+    background-color: #088;
+}
+.flexMenu-popup {
+    padding: 0;
+    background-color: #088;
+    margin: 0;
+}
+
+.flexMenu-viewMore > a, .flexMenu-viewMore > a:hover {
+    background-color: #5599AA;
+}
+
+.flexMenu-viewMore > a:after {
+    display: inline-block;
+    content:"";
+    border-left:0.3em solid transparent;
+    border-right:0.3em solid transparent;
+    border-top:0.4em solid white;
+    margin-left:0.4em;
+    position: relative;
+    top: -.1em;
+}
+
+.flexMenu-viewMore.active > a, .flexMenu-viewMore.active > a:hover {
+    background-color: #088;
+}
+
+.flexMenu-popup > li > a, .flexMenu-popup > li {
+    display: block;
+}
+
+.flexMenu-popup > li > a:hover {
+    background-color: #3aa;
 }
 
 #wapper{
@@ -19,7 +80,7 @@ body{
 
 h1{
   float:left;
-  margin:o;
+  margin:0;
   text-indent:-20000px;
   width:300px;
   height:66px;
@@ -71,7 +132,7 @@ img{
 
     }
     img{
-      width: 25%;
+      width: 15%;
     }
     img2{
       width: 25%;
@@ -79,6 +140,7 @@ img{
     img3{
       width: 25%;
     }
+
 
     div#main{
     width:830px;
