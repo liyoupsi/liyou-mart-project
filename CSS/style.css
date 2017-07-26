@@ -1,69 +1,43 @@
 body{//style for the body
   margin:0;
   font-family:verdana,sans-serif;
-  font-size:0.85em;
+  font-size:24px;
   background-color:#eac657;
 }
-.navbar li  {//style for nav
-  display: inline;
-  width:25%;
+nav ul {list-style-type: none;//style for nav
+position: fixed, center;
+padding-top: 0;
+width: 25%;
+margin: 0px;
+padding:0;
+background-color: #ffffff;
 }
 
-
-.navbar li {
-    list-style-type: none;
+nav li { display: inline;
 }
 
-.navbar > li {
-    margin-left: .25em;
+nav {text-align: left;
+list-style: none;
+font-size: 24px;
 }
 
-.navbar > li:first-child {
-    margin-rigt: 0;
+nav a { font-family: arial, verdana;
+color:#000000;
+text-decoration: none;
+padding: 50px;
+display: inline-block;
 }
 
-.navbar a {
-    padding: .25em;
-    text-decoration: none;
-    height: 1em;
-    font-weight: bold;
-    color: #fff;
+nav a:hover { text-decoration: none;
+color: #bfbfbf;
+}
+nav a:focus { text-decoration: none;
+color: #bfbfbf;
 }
 
-.navbar a:hover {
-    background-color: #088;
-}
-.flexMenu-popup {
-    padding: 0;
-    background-color: #088;
-    margin: 0;
-}
-
-.flexMenu-viewMore > a, .flexMenu-viewMore > a:hover {
-    background-color: #5599AA;
-}
-
-.flexMenu-viewMore > a:after {
-    display: inline-block;
-    content:"";
-    border-left:0.3em solid transparent;
-    border-right:0.3em solid transparent;
-    border-top:0.4em solid white;
-    margin-left:0.4em;
-    position: relative;
-    top: -.1em;
-}
-
-.flexMenu-viewMore.active > a, .flexMenu-viewMore.active > a:hover {
-    background-color: #088;
-}
-
-.flexMenu-popup > li > a, .flexMenu-popup > li {
-    display: block;
-}
-
-.flexMenu-popup > li > a:hover {
-    background-color: #3aa;
+nav a:active { text-decoration: none;
+background-color: #000000;
+color: #cccccc;
 }
 
 #wapper{
@@ -82,7 +56,7 @@ h1{
   float:left;
   margin:0;
   text-indent:-20000px;
-  width:300px;
+  width:25%;
   height:66px;
 }
 
